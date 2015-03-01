@@ -1,0 +1,31 @@
+{
+  "name": "uppercase-keys",
+  "version": "0.0.0",
+  "description": "Uppercase the keys of an object",
+  "keywords": [
+    "object",
+    "extend",
+    "case",
+    "key",
+    "keys",
+    "properties",
+    "uppercase",
+    "upper-case",
+    "capital"
+  ],
+  "license": "MIT",
+  "author": "Arthur Verschaeve <contact@arthurverschaeve.be>",
+  "files": [
+    "index.js"
+  ],
+  "repository": "arthurvr/uppercase-keys",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
