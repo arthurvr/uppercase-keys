@@ -1,5 +1,4 @@
 'use strict';
-
 module.exports = function (orig) {
 	var keys = Object.keys(orig);
 	var amount = keys.length;
