@@ -13,7 +13,7 @@ $ npm install --save uppercase-keys
 ```js
 var uppercaseKeys = require('uppercase-keys');
 
-uppercaseKeys({ foo: true, BaR: false });
+uppercaseKeys({foo: true, BaR: false});
 //=> {FOO: true, BAR: false}
 ```
 
