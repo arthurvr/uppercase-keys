@@ -19,4 +19,8 @@ test(function (t) {
 		thingie: 55,
 		KEY: false
 	}).KEY);
+
+	t.assert(uppercaseKeys({
+		1: 'foo-bar'
+	})['1']);
 });

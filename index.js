@@ -1,12 +1,10 @@
 'use strict';
 module.exports = function (orig) {
-	var keys = Object.keys(orig);
-	var amount = keys.length;
 	var ret = {};
+	var keys = Object.keys(orig);
 
-	var key;
-	while (amount--, key = keys[amount]) {
-		ret[typeof key === 'string' ? key.toUpperCase() : key] = orig[key];
+	for (var i = 0; i < keys.length; i++) {
+		ret[keys[i].toUpperCase()] = orig[keys[i]];
 	}
 
 	return ret;
