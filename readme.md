@@ -23,4 +23,4 @@ uppercaseKeys({foo: true, BaR: false});
 
 ## License
 
-MIT © Arthur Verschaeve
+MIT © [Arthur Verschaeve](http://arthurverschaeve.be)
