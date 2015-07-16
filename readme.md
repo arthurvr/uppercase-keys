@@ -2,11 +2,13 @@
 
 > Uppercase the keys of an object
 
+
 ## Installation
 
 ```
 $ npm install --save uppercase-keys
 ```
+
 
 ## Usage
 
@@ -17,9 +19,11 @@ uppercaseKeys({foo: true, BaR: false});
 //=> {FOO: true, BAR: false}
 ```
 
+
 ## Related
 
 * [lowercase-keys](https://github.com/sindresorhus/lowercase-keys)
+
 
 ## License
 
