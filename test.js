@@ -1,8 +1,8 @@
 'use strict';
-var test = require('ava');
-var uppercaseKeys = require('./');
+import test from 'ava';
+import uppercaseKeys from './';
 
-test(function (t) {
+test(t => {
 	t.same(uppercaseKeys({
 		foo: 'fixture'
 	}), {
